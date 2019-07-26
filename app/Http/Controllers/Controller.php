@@ -23,9 +23,25 @@ class Controller extends BaseController
     	$startDate = $req->input('startDate');
     	$endDate = $req->input('endDate');
 
-    	$data = array('name'=>$name,'phonenumber'=>$phonenumber,'idNumber'=>$idNumber,'destination'=>$destination,'bikeType'=>$bikeType,'startDate'=>$startDate,'endDate'=>$endDate);
+        $price = 0.0;
+        $type = "tmp";
+        if ($bikeType == "Normal Bike = 4$"){
+            $type = "Normal Bike";
+            $price = 4;
+        }else if ($bikeType == "Mordern Bike = 8$"){
+            $type = "Mordern Bike";
+            $price = 8;
+        }else if ($bikeType = "Normal Motorbike = 12$"){
+            $type = "Normal Motorbike";
+            $price = 12;
+        }else{
+            $type = "Off-Road Motorbike";
+            $price = 16;
+        }
 
-    	DB::table('book')->insert($data);
+    	$data = array('name'=>$name,'phonenumber'=>$phonenumber,'idNumber'=>$idNumber,'destination'=>$destination,'bikeType'=>$type,'price'=>$price,'startDate'=>$startDate,'endDate'=>$endDate);
+
+    	DB::table('books')->insert($data);
 
     	echo "Insert Success !";
     	
