@@ -31,4 +31,4 @@ Route::get('/book', function(){
 	return view('book');
 });
 
-Route::post('/insert','BooksController@insert');
+Route::post('/insert','Controller@insert');
