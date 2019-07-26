@@ -66,19 +66,19 @@
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-                <div class="top-right links" ">
+                <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}" style="color: white; font-size: 25px;">Home</a>
                     @else
-                    <button>
-                        <a href="{{ route('login') }}" style="text-decoration: none;">Login</a>
-                    </button>
+                    
+                        <a href="{{ route('login') }}" style="color: white; font-size: 25px; color: white;">Login</a>
+                   
                         
 
                         @if (Route::has('register'))
-                        <button>
-                            <a href="{{ route('register') }}" style="text-decoration: none;">Register</a>
-                        </button>
+                        
+                            <a href="{{ route('register') }}" style="color: white;font-size: 25px;">Register</a>
+            
                             
                         @endif
                     @endauth

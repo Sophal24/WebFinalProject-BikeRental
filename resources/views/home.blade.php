@@ -21,10 +21,6 @@
         </div>
     </div>
 </div> --}}
-
-<!DOCTYPE html>
-<html lang="en">
-   <!-- Basic -->
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <!-- Mobile Metas -->
@@ -314,7 +310,11 @@
          </div>
       </div>
 
-      <button type="button" class="btn btn-primary">Book</button>
+      <div style="justify-content: center; align-items: center; display: flex;flex-direction: column; margin-bottom: 30px;">
+         <button type="button" class="btn btn-primary" style="width: 200px; height: 50px;"><a href="book" style="text-decoration: none;"><p style="font-size: 30px;">Book</p></a></button>
+         <p style="font-size: 30px;">Book</p>
+      </div>
+      
       <!-- end section -->
 
       <!-- end section -->
@@ -389,192 +389,7 @@
          </div>
       </div>
       <!-- end section -->
-
-      
-
-      <div id="testimonials" class="section db">
-         <div class="container">
-            <div class="section-title row text-center">
-               <div class="col-md-8 col-md-offset-2">
-                  <h3>Feedbacks</h3>
-                  <p class="lead">These our feedbacks from our customer. Most of them are satified with BR's services.</p>
-               </div>
-               <!-- end col -->
-            </div>
-            <!-- end title -->
-            <div class="row">
-               <div class="col-md-12 col-sm-12">
-                  <div class="testi-carousel owl-carousel owl-theme">
-                     <div class="testimonial clearfix">
-                        <div class="desc">
-                           <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                           <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                        </div>
-                        <div class="testi-meta">
-                           <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
-                           <h4>James Fernando <small>- Manager of Racer</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                     </div>
-                     <!-- end testimonial -->
-                     <div class="testimonial clearfix">
-                        <div class="desc">
-                           <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                           <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                        </div>
-                        <div class="testi-meta">
-                           <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
-                           <h4>Jacques Philips <small>- Designer</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                     </div>
-                     <!-- end testimonial -->
-                     <div class="testimonial clearfix">
-                        <div class="desc">
-                           <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                           <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                        </div>
-                        <div class="testi-meta">
-                           <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
-                           <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                     </div>
-                     <!-- end testimonial -->
-                     <div class="testimonial clearfix">
-                        <div class="desc">
-                           <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                           <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                        </div>
-                        <div class="testi-meta">
-                           <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
-                           <h4>James Fernando <small>- Manager of Racer</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                     </div>
-                     <!-- end testimonial -->
-                     <div class="testimonial clearfix">
-                        <div class="desc">
-                           <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                           <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                        </div>
-                        <div class="testi-meta">
-                           <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
-                           <h4>Jacques Philips <small>- Designer</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                     </div>
-                     <!-- end testimonial -->
-                     <div class="testimonial clearfix">
-                        <div class="desc">
-                           <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                           <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                        </div>
-                        <div class="testi-meta">
-                           <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
-                           <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                        </div>
-                        <!-- end testi-meta -->
-                     </div>
-                     <!-- end testimonial -->
-                  </div>
-                  <!-- end carousel -->
-               </div>
-               <!-- end col -->
-            </div>
-            <!-- end row -->
-         </div>
-         <!-- end container -->
-      </div>
-      <!-- end section -->
-
-      
-      <div id="contact" class="section wb">
-         <div class="container">
-            <div class="section-title row text-center">
-               <div class="col-md-8 col-md-offset-2">
-                  <h3>Contact Us</h3>
-                  <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
-               </div>
-               <!-- end col -->
-            </div>
-            <!-- end title -->
-            <div class="row">
-               <div class="col-lg-4 col-md-4">
-                  <div class="contant-info">
-                     <ul class="item-display-block">
-                        <li>
-                           <div class="info-shape accent-color background fs-23">
-                              <div class="icon"><i class="fa fa-home"></i></div>
-                           </div>
-                           <div class="info-content">
-                              <h6 class="uppercase"> Address:</h6>
-                              <p> 1010 Berkler avenue, Brooklyn New York City, NY 10018 US</p>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="info-shape accent-color background fs-23">
-                              <div class="icon"><i class="fa fa-volume-control-phone"></i></div>
-                           </div>
-                           <div class="info-content">
-                              <h6 class="uppercase"> Phone No:</h6>
-                              <p> +212 386 5575<br>+212 386 5575</p>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="info-shape accent-color background fs-23">
-                              <div class="icon"><i class="fa fa-envelope-o"></i></div>
-                           </div>
-                           <div class="info-content">
-                              <h6 class="uppercase"> Email Address:</h6>
-                              <p>Demo@gmail.com</p>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-8">
-                  <div class="contact_form">
-                     <div id="message"></div>
-                     <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
-                        <fieldset class="row-fluid">
-                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
-                           </div>
-                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
-                           </div>
-                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                           </div>
-                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Website">
-                           </div>
-                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <label class="sr-only">Select Department</label>
-                              <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
-                                 <option value="12">Select Service</option>
-                                 <option value="Building Service">Building Service</option>
-                                 <option value="Tover Design">Tover Design</option>
-                                 <option value="Others">Others</option>
-                              </select>
-                           </div>
-                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
-                           </div>
-                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                              <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Get a Quote</button>
-                           </div>
-                        </fieldset>
-                     </form>
-                  </div>
-               </div>
-               <!-- end col -->
-            </div>
-            <!-- end row -->
-         </div>
-         <!-- end container -->
-      </div>
+               
       <!-- end section -->
       <!-- footer -->
       <footer id="footer">
@@ -664,6 +479,5 @@
       <script src="{{asset('js/portfolio.js')}}"></script>
       <script src="{{asset('js/hoverdir.js')}}"></script>   
    </body>
-</html>
 
 @endsection
