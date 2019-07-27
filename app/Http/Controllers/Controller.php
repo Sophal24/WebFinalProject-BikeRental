@@ -7,6 +7,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
+
 use DB;
 
 class Controller extends BaseController
@@ -43,7 +44,8 @@ class Controller extends BaseController
 
     	DB::table('books')->insert($data);
 
-    	echo "Insert Success !";
+        // echo "Insert Success !";
+        return view('/successAlert',compact('successAlert'));
     	
     }
 }

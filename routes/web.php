@@ -20,6 +20,10 @@ Route::get('/home', function(){
 	return view('home');
 });
 
+Route::get('/success', function(){
+	return view('successAlert');
+});
+
 
 Auth::routes();
 
